@@ -1,3 +1,4 @@
+print ("ФАЙЛ ЗАПУЩЕН")
 import asyncio
 import logging
 import os
