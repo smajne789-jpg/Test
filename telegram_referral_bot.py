@@ -546,4 +546,8 @@ async def menu_balance(call: CallbackQuery):
     stats = db.get_stats(call.from_user.id)
     text = (
         "<b>Твой баланс</b>\n\n"
-  
+
+        
+@router.message()
+async def test(message: Message):
+    await message.answer("Я жив")
